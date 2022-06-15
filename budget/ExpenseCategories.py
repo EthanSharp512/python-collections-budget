@@ -26,7 +26,7 @@ expenses.read_expenses('data/spending_data.csv')
     globals=globals()
     ))
     
-    print(timeit.timeit(stmt='expenses.categorize_set_comrehension()',
+    print(timeit.timeit(stmt='expenses.categorize_set_comprehension()',
     setup =
     '''
 from . import Expense
